@@ -1,0 +1,49 @@
+/* Color Palette
+# - 8494FF
+# - ECE7D1
+# - 87B6BC
+# - FFD400
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #ECE7D1;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #262b4a;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1d2035;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background: #8494FF;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background: #87B6BC;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background: #FFD400;
+}
