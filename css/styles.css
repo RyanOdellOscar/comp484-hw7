@@ -7,13 +7,22 @@
 
 /* Global styles 
 ------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background: #ECE7D1;
     font-family: 'Fira Sans', sans-serif;
     font-size: 1rem;
+    margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -26,12 +35,48 @@ h2 {
     font-size: 2.5rem;
     font-weight: 700;
     color: #1d2035;
+    margin-top: 0;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin-top: 0; 
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%; 
+    float: left; 
+    padding-right: 3%; 
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
 }
 
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
     background: #8494FF;
+    text-align: center;
+}
+
+.contact-info a{
+    padding: 10px; 
+    display: inline-block;
+}
+
+img.profile-image {
+    /*width: 300px; */
+    height: 300px;
+    border-radius: 50%;
+    /*float: left;
+    margin-right: 30px;*/
 }
 
 
